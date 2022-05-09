@@ -32,7 +32,7 @@ jobs:
         run: npm install
       
       - name: Build Porject
-        run: npm build
+        run: npm run build
 
   deploy:
     runs-on: ubuntu-latest
