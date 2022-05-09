@@ -29,10 +29,10 @@ jobs:
           node-version: '16.x'
           
       - name: Install dependencies
-      - run: npm install
+        run: npm install
       
       - name: Build Porject
-      - run: npm build
+        run: npm build
 
   deploy:
     runs-on: ubuntu-latest
